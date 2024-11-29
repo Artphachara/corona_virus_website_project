@@ -1,0 +1,552 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #505050;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #3498DB;
+}
+
+.navigator{
+    height: 40px;
+    border-bottom: 1px solid whitesmoke;
+    background-color: #F5F5F5;
+}
+
+.nav a:hover{
+    color: #3498DB;
+}
+
+.nav ul li{
+    font-weight: bold;
+    display: inline;
+}
+
+.nav ul li a{
+    width: 150px;
+    float: right;
+    padding-top: 10px;
+    font-size: 20px;
+    color: gray;
+}
+
+.header{
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.head-logo{
+    display: block;
+    padding: 10px 0 10px 0;
+    width: auto;
+}
+
+.logo{
+    text-align: left;
+    padding-left: 30px;
+}
+
+.heading{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info{
+    top: 125px;
+    right: 200px;
+    text-align: left;
+    position: fixed;
+    width: 275px;
+    height: auto;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 1px 1px 5px #DCDCDC;
+    background-color: white;
+}
+
+.info-2{
+    top: 30%;
+    right: 35px;
+    text-align: left;
+    position: fixed;
+    width: 350px;
+    height: auto;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 1px 1px 5px #DCDCDC;
+    background-color: white;
+}
+
+
+.info-3{
+    top: 31%;
+    left: 165px;
+    position: fixed;
+    width: auto;
+    height: auto;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 1px 1px 5px #DCDCDC;
+    background-color: white;
+}
+
+.upper-footer{
+    display: block;
+    width: 100%;
+    height: 10%;
+    background-color: whitesmoke;
+}
+
+.lower-footer{
+    padding: 10px 0 0 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: auto;
+    background-color: #0f0f3d;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.content{
+    padding: 10px;
+    display: block;
+    background-color: #F5F5F5;
+}
+
+.head-content{
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DCDCDC;
+    color: gray;
+}
+
+.situation-content{
+    display: flex;
+}
+
+.cases-confirmed,.treatment,.recoveries,.deaths{
+    text-align: left;
+    display: block;
+    background-color: #F0F0F0;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    border-bottom: 2px solid  #CD5C5C;
+}
+
+.row-number{
+    font-size: 46px;
+    font-weight: bold;
+    color: #CD5C5C;
+}
+
+.row-confirmed{
+    font-weight: bold;
+}
+
+.row-time{
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+.videos{
+    display: flex;
+}
+
+.video{
+    padding: 5px 25px 5px 18px;
+}
+
+.video2{
+    padding: 5px 90px 5px 0;
+}
+
+.heading-description{
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.description{
+    padding: 25px;
+    text-align: left;
+}
+
+.description-info{
+    padding: 0 25px 5px 0;
+    text-align: left;
+}
+
+.description-video{
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: left;
+    width: 35%;
+}
+
+.description-video p{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.row-number a:hover{
+    color: #CD5C5C;
+}
+
+.row-people td{
+    color: wheat;
+}
+
+.northern table, .central table, .eastern table, .western table, .northeastern table, .southern table{
+    padding-left: 60px;
+    padding-right: 84px;
+}
+
+.table-province td{
+    font-weight: bold;
+}
+
+.eastern table td, .western table td, .northeastern table td{
+    padding-right: 10px;
+}
+
+.heading-province{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3498DB;
+    padding-bottom: 5px;
+}
+
+.province{
+    display: flex;
+    padding: 10px 0 10px 10px;
+}
+
+.new{
+    box-shadow: 1px 1px 5px #DCDCDC;
+    display: block;
+}
+
+.new a{
+    color: black; 
+    font-weight: bold;
+}
+
+.topic-new{
+    font-weight: bold;
+}
+
+.back{
+    float: right;
+    padding-right: 100px;
+}
+
+.back a{
+    color: whitesmoke;
+}
+
+.home-news{
+    display: block;
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+
+.heading-news{
+    display: block;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: grey;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.heading-news .all-news{
+    display: inline;
+    padding-left: 65%;
+}
+
+.all-news a{
+    color: gray;
+}
+
+.heading-news2{
+    display: block;
+    text-align: left;
+    padding: 30px 0 10px 10px;
+    font-size: 24px;
+    width: 20%;
+    font-weight: bold;
+    color: grey;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.heading-news3{
+    display: flex;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+    border-bottom: 1px solid #DCDCDC;
+    justify-content: space-between;
+}
+
+.box-news{
+    position: relative;
+    text-align: left;
+    padding-top: 15px;
+    display: flex;
+}
+
+.box-news a{
+    padding-right: 40px;
+}
+
+.text-underline{
+    font-style: initial;
+    padding: 20px 10px 10px 10px;
+    position: absolute;
+    background-color: white;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    top: 70%;
+    bottom: 0;
+    width: 21.8%;
+    box-shadow: 1px 1px 5px #DCDCDC;
+}
+
+.box-protect-news table{
+    padding: 10px 0 5px 10px;
+    font-weight: bold;
+}
+
+.box-protect-news table td{
+    padding-bottom: 5px;
+}
+
+.login a{
+    text-decoration: none;
+    text-align: right;
+    padding-right: 75px;
+    color: whitesmoke;
+}
+
+.edit{
+    padding-right: 100px;
+}
+
+.edit2{
+    display: inline;
+    padding-right: 20px;
+}
+
+.upper-footer{
+    display: block;
+}
+
+.back-how-to-protect{
+    float: right;
+    padding: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+
+.news-box{
+    margin: 15px 0 0 10px;
+    padding: 20px 10px 0 10px;
+    width: 75%;
+    box-shadow: 1px 1px 5px #DCDCDC;
+    background-color: white;
+}
+
+.head-title{
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 5px;
+    font-size: 22px;
+}
+
+.news-description{
+    text-align: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.add{
+    font-size: 16px;
+    display: inline;
+    padding: 5px 20px 5px 20px;
+    background-color: #3498DB;
+    color: whitesmoke;
+}
+
+.add:hover{
+    background-color: gray;
+}
+
+.edit-news,.delete-news{
+    color: whitesmoke;
+    background-color: #3498DB;
+    box-shadow: 1px 1px 5px #DCDCDC;
+    font-weight: bold;
+    margin-left: 10px;
+    padding-top: 60px;
+    text-align: center;
+    margin-top: 15px;
+    height: 60px;
+    width: 120px;
+}
+
+.setting{
+    display: flex;
+}
+
+.news-box-flex{
+    display: flex;
+}
+
+.add-form{
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    box-shadow: 1px 1px 5px #DCDCDC;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+}
+
+.edit-form{
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    box-shadow: 1px 1px 5px #DCDCDC;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+}
+
+.submit-form{
+        position: fixed;
+        top: 47%;
+        left: 45.5%;
+        box-shadow: 1px 1px 5px #DCDCDC;
+        padding: 30px 30px 30px 30px;
+        background-color: white;
+}
+
+.button{
+    padding-top: 10px;
+}
+
+.button .submit,.reset{
+    font-weight: bold;
+    font-size: 14px;
+    color: whitesmoke;
+    background-color: #3498DB;
+    border: none;
+}
+
+.close{
+    padding: 5px 10px 5px 10px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    color: black;
+}
+
+.header-add-news{
+    color: #3498DB;
+}
+
+.button .submit:hover,.reset:hover{
+    background-color: gray;
+}
+
+textarea{
+    resize: none;
+    overflow-y: scroll;
+}
+
+.img3{
+    list-style-type: none;
+}
+
+.img1 li{
+    display: inline;
+    padding-left: 11px;
+}
+
+.images-box{
+    box-shadow: 1px 1px 5px #DCDCDC;
+}
+
+.edit-news:hover,.delete-news:hover{
+    background-color: gray;
+}
+
+.login-website {
+    top: 10%;
+    left: 40%;
+    position: fixed;
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+}
+.login-website h1 {
+    text-align: center;
+    color: #5b6574;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+.login-website form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.login-website form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #3274d6;
+    color: #ffffff;
+}
+.login-website form input[type="password"], .login-website form input[type="text"] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.login-website form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: -16px;
+    background-color: #3274d6;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+.login-website form input[type="submit"]:hover {
+    background-color: #2868c7;
+    transition: background-color 0.2s;
+}
